@@ -1,7 +1,7 @@
 [
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=qobuz.com&sz=%size%",
-        "jarFileSize": 0,
+        "jarFileSize": 77190,
         "fileHash": "c6ee795f8a8b7fcdd00a01918341d3c3edd2e7d1772d491f3e3d9cbfffd20d8b",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/Darshan-Patgar/QobuzCloudStream",
@@ -19,6 +19,6 @@
         "description": "Qobuz music streaming",
         "url": "https://raw.githubusercontent.com/Darshan-Patgar/QobuzCloudStream/main/QobuzProvider.cs3",
         "name": "QobuzProvider",
-        "jarHash": ""
+        "jarHash": "951eb0a90ae3c03603773f7895f01cb74666337b4fa8953fd4e2fa34929adfc0"
     }
 ]
