@@ -2,10 +2,10 @@
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=qobuz.com&sz=%size%",
         "jarFileSize": 0,
-        "fileHash": "sha256-YOUR_SHA256_HERE",
+        "fileHash": "c6ee795f8a8b7fcdd00a01918341d3c3edd2e7d1772d491f3e3d9cbfffd20d8b",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/YOUR_USERNAME/QobuzCloudStream",
-        "fileSize": YOUR_SIZE_HERE,
+        "fileSize": 19469,
         "status": 1,
         "authors": [
             "Darshan"
