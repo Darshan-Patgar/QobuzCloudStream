@@ -3,6 +3,6 @@
     "description": "Cloudstream extension Repository",
     "manifestVersion": 1,
     "pluginLists": [
-      "https://raw.githubusercontent.com/Darshan-Patgar/QobuzCloudStream/blob/main/plugin.json"
+      "https://raw.githubusercontent.com/Darshan-Patgar/QobuzCloudStream/refs/heads/main/plugins.json"
     ]
 }
