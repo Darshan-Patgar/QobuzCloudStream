@@ -1,0 +1,39 @@
+name: Build Qobuz CloudStream
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Make Gradle executable
+        run: chmod +x ./gradlew
+
+      - name: Build Qobuz
+        run: ./gradlew :QobuzProvider:make
+
+      - name: Upload CS3
+        uses: actions/upload-artifact@v4
+        with:
+          name: QobuzProvider
+          path: |
+            QobuzProvider/build/*.cs3
+            QobuzProvider/build/*.jar
