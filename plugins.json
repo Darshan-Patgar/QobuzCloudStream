@@ -15,7 +15,7 @@
         ],
         "version": 1,
         "internalName": "QobuzProvider",
-        "jarUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/QobuzCloudStream/main/QobuzProvider.jar",
+        "jarUrl": "https://raw.githubusercontent.com/Darshan-Patgar/QobuzCloudStream/main/QobuzProvider.jar",
         "description": "Qobuz music streaming",
         "url": "https://raw.githubusercontent.com/Darshan-Patgar/QobuzCloudStream/main/QobuzProvider.cs3",
         "name": "QobuzProvider",
